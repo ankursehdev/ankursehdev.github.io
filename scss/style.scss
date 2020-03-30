@@ -609,10 +609,12 @@ video::-webkit-media-controls {
 	transition: .3s all ease;
 	&:hover,&:active, &:focus {
 		outline: none;
+		background: darken($blue, 5%);
 	}
 	&.button--red {
 		background: $red;
 		&:hover {
+			outline: none;
 			text-decoration: none;
 			color: $white;
 			box-shadow: 0 20px 40px -5px rgba(0,0,0,.4);
@@ -630,11 +632,16 @@ video::-webkit-media-controls {
 	}
 	&.button--blue {
 		background: $blue;
+		&:active, &:focus {
+			outline: none;
+			background: darken($blue, 10%);
+		}
 		&:hover {
 			text-decoration: none;
 			color: $white;
-			box-shadow: 0 20px 40px -5px rgba(0,0,0,.4);
-			background: darken($blue, 5%);
+			box-shadow:0 10px 15px -5px rgba(0,0,0,.3);
+			background: darken($blue, 10%);
+
 		}
 	}
 }
