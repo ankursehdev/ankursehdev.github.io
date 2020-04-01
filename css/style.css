@@ -1,4 +1,4 @@
-body { font-size: 16px; line-height: 1.8; color: #6c757d; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+body { font-size: 16px; line-height: 1.8; color: #6c757d; font-family: "Roboto", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
 ::-moz-selection { background: yellow; }
 
@@ -93,7 +93,7 @@ img.banner_shap { position: absolute; top: 0; right: 0; z-index: -1; }
 
 .templateux-hero, .intro { height: 100vh; min-height: 700px; }
 
-.templateux-hero h1, .intro h1 { color: #000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 60px; }
+.templateux-hero h1, .intro h1 { color: #000; font-family: "Roboto", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 60px; }
 
 @media (max-width: 991.98px) { .templateux-hero h1, .intro h1 { font-size: 36px; } }
 
