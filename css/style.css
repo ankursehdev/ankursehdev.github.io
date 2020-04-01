@@ -14,6 +14,8 @@ img.banner_shap { position: absolute; top: 0; right: 0; z-index: -1; }
 
 .templateux-navbar { position: absolute; top: 0; left: 0; width: 100%; padding: 35px 0; z-index: 99999; }
 
+.templateux-navbar.not-fixed { position: relative; }
+
 .templateux-navbar .container-fluid { max-width: 100%; }
 
 .templateux-navbar .toggle-menu { z-index: 9999; position: relative; display: none; }
@@ -190,6 +192,8 @@ img.banner_shap { position: absolute; top: 0; right: 0; z-index: -1; }
 .templateux-footer .footer-social a { color: #b3b3b3; position: relative; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; font-size: 26px; }
 
 .templateux-footer .footer-social a:hover, .templateux-footer .footer-social a:focus { color: #dc3545; -webkit-transform: scale(1.7); -ms-transform: scale(1.7); transform: scale(1.7); }
+
+.heart { color: #dc3545; }
 
 .btn:hover, .btn:focus, .btn:active { outline: none; -webkit-box-shadow: none !important; box-shadow: none !important; }
 
